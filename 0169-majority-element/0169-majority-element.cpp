@@ -9,8 +9,8 @@ public:
             {
                 if(ele == val) freq++;
             }
-            if(freq > (nums.size()/2)) res = val;
+            if(freq > (nums.size()/2)) return val;
         }
-        return res;
+        return -1;
     }
 };
